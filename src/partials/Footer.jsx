@@ -11,13 +11,13 @@ const Footer = () => {
                 <img src="../../../public/images/logo.svg" alt="" />
               </a>
               <p className="mt-6">
-                Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo
-                tellus, sed condimentum volutpat.
+                This website we are create for find sell and work on real
+                project.
               </p>
             </div>
             <div className="col-12 mt-12 md:col-6 lg:col-3">
               <h6>Socials</h6>
-              <p>themefisher@gmail.com</p>
+              <p>tochratana@gmail.com</p>
               <ul className="social-icons mt-4 lg:mt-6">
                 <li>
                   <a href="#">
@@ -104,8 +104,11 @@ const Footer = () => {
             </div>
             <div className="col-12 mt-12 md:col-6 lg:col-3">
               <h6>Location & Contact</h6>
-              <p>2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
-              <p>(704) 555-0127</p>
+              <p>
+                2024 Phnom Penh City. Ou Beak K'am, Saensokh, 41D, street 371,
+                Phnom Penh
+              </p>
+              <p>(885) 88 64 65 190</p>
             </div>
           </div>
         </div>
@@ -113,8 +116,8 @@ const Footer = () => {
           <div className="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center">
             <p>
               Designed And Developed by{" "}
-              <a href="https://themefisher.com" target="_blank">
-                Themefisher
+              <a href="https://tochratana.netlify.app/" target="_blank">
+                tochratana
               </a>
             </p>
           </div>
