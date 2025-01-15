@@ -9,11 +9,12 @@ const Header = () => {
           <div className="order-0">
             <a href="index.html">
               <img
-                src="../../../public/images/logo.svg"
-                height="30"
-                width="147"
+                src="../../../public/images/logos.svg"
+                className="w-[63px]"
                 alt="logo"
               />
+              {/* height="30"
+              width="147" */}
             </a>
           </div>
           <input id="nav-toggle" type="checkbox" className="hidden" />
@@ -65,9 +66,9 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <a href="how-it-works.html" className="nav-link">
+              <Link to="/how-it-work" className="nav-link">
                 How It Works
-              </a>
+              </Link>
             </li>
             <li className="nav-item nav-dropdown group relative">
               <span className="nav-link inline-flex items-center">
@@ -78,14 +79,14 @@ const Header = () => {
               </span>
               <ul className="nav-dropdown-list hidden group-hover:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
                 <li className="nav-dropdown-item">
-                  <a href="career.html" className="nav-dropdown-link">
+                  <Link to="/career" className="nav-dropdown-link">
                     Career
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-dropdown-item">
-                  <a href="career-single.html" className="nav-dropdown-link">
+                  <Link to="/career-single" className="nav-dropdown-link">
                     Career Single
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-dropdown-item">
                   <a href="integrations.html" className="nav-dropdown-link">
@@ -93,34 +94,34 @@ const Header = () => {
                   </a>
                 </li>
                 <li className="nav-dropdown-item">
-                  <a
-                    href="integration-single.html"
+                  <Link
+                    to="/page/intergration-single"
                     className="nav-dropdown-link"
                   >
                     Integration Single
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-dropdown-item">
-                  <a href="pricing.html" className="nav-dropdown-link">
+                  <Link to="/page/pricing" className="nav-dropdown-link">
                     Pricing
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-dropdown-item">
-                  <a href="changelogs.html" className="nav-dropdown-link">
+                  <Link to="/page/changelogs" className="nav-dropdown-link">
                     Changelogs
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-dropdown-item">
-                  <a href="terms-conditions.html" className="nav-dropdown-link">
+                  <Link to="/page/term-condition" className="nav-dropdown-link">
                     Terms & Conditions
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </li>
             <li className="nav-item">
-              <a href="contact.html" className="nav-link">
+              <Link to="/contact" className="nav-link">
                 Contact
-              </a>
+              </Link>
             </li>
             <li className="nav-item mt-3.5 lg:hidden">
               <a
@@ -132,9 +133,9 @@ const Header = () => {
             </li>
           </ul>
           <div className="order-1 ml-auto hidden items-center md:order-2 md:ml-0 lg:flex">
-            <a className="btn btn-white btn-sm" href="signin.html">
+            <Link className="btn btn-white btn-sm" to="/signup">
               Sing Up Now
-            </a>
+            </Link>
           </div>
         </nav>
       </header>

@@ -356,7 +356,7 @@ const Home = () => {
           <div className="row mt-10">
             <div className="col-12">
               <div className="swiper reviews-carousel">
-                <div className="swiper-wrapper">
+                <div className="swiper-wrapper md:flex gap-5">
                   <div className="swiper-slide">
                     <div className="review">
                       <div className="review-author-avatar bg-gradient">
